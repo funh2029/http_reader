@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name = "http_reader"
+version = "0.1.2"
+authors = ["funh2029 <funh2029@outlook.com>"]
+description = "HttpReader with LruCache can be used for ZipArchive and etc."
+repository = "https://github.com/rust-org/lib-http-reader"
+readme = "README.md"
+license = "LGPL-3.0"
+keywords = ["reader", "zip", "range", "http", "cache"]
+
+[dependencies]
+reqwest = { version = ">=0.1.0", features = ["blocking"] }
+lru-cache = ">=0.1.0"
